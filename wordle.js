@@ -122,7 +122,7 @@ function update(){
 
     guess = guess.toLowerCase();
     if(!wordlist.includes(guess)){
-        document.getElementById("answer").innerText = "Not in list";
+        document.getElementById("answer").innerText = "Not a word";
         return;
     }
     let correct = 0;
