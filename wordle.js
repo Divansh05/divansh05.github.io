@@ -175,6 +175,7 @@ function update(){
             }
             else{
                 currentTile.classList.add("absent");
+                keyTile.classList.add("absent");
             }
         }
     }
